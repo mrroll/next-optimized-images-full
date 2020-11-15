@@ -1,0 +1,33 @@
+{
+  "name": "@mrroll/next-optimized-images-full",
+  "version": "1.0.0",
+  "description": "next-optimized-images with all possible dependencies",
+  "main": "main.js",
+  "author": "mrroll",
+  "license": "MIT",
+  "dependencies": {
+    "@mrroll/next-optimized-images": "^2.6.2",
+    "image-trace-loader": "^1.0.2",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "lqip-loader": "^2.2.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "responsive-loader": "^2.1.1",
+    "sharp": "^0.26.0",
+    "svg-sprite-loader": "5.0.0",
+    "webp-loader": "^0.6.0"
+  },
+  "devDependencies": {
+    "@mrroll/eslint-config": "^1.0.3",
+    "eslint": "^7.8.1",
+    "prettier": "^2.1.1"
+  },
+  "peerDependencies": {},
+  "scripts": {},
+  "bugs": {
+    "url": "https://github.com/mrroll/next-optimized-images-full/issues"
+  },
+  "homepage": "https://github.com/mrroll/next-optimized-images-full#readme"
+}
